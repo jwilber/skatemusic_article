@@ -1,0 +1,160 @@
+
+
+
+
+.step {
+  /*margin: 2rem auto;*/
+  /*border: 1px solid #333;*/
+  background-color: black;
+}
+.step.is-active {
+  background-color: black;
+}
+
+.step.is-active p {
+  font-size: 15px;
+  font-weight: bold;
+  height: 100%;
+}
+
+.step p {
+  text-align: center;
+  /*padding: 1rem;*/
+  font-size: 12px;
+  color: white;
+}
+
+.step h4 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+
+
+.joy-intro
+  padding-top 3rem
+  background black
+  color white
+  margin-bottom 5rem
+  .intro__dek
+    margin-bottom 2rem
+  .body_text
+    margin-bottom 8rem
+
+
+#scroll
+    position relative
+    margin 0 auto
+    border none
+    width 100%
+    padding-bottom 2rem
+    .scroll__graphic
+      width 100%
+      height 100vh
+      top 0
+      left 0
+      position absolute
+      -webkit-transform translate3d(0, 0, 0)
+      -moz-transform translate3d(0, 0, 0)
+      transform translate3d(0,0,0,0)
+      bottom auto
+      .chart
+        position absolute
+        width 60%
+        background: black;
+        top: 50%;
+        -moz-transform translateY(-50%)
+        -webkit-transform translateY(-50%)
+        transform translateY(-50%)
+        margin 0 auto
+        margin-left 40%
+        svg
+          overflow visible
+          .axis--x
+            .tick
+              line
+                stroke white
+              text
+                font-size .7rem
+                font-family 'Atlas Grotesk Web'
+                fill white
+                font-weight 500
+
+          .axis--activity
+            .tick
+              text
+                font-size .8rem
+                font-family 'Atlas Grotesk Web'
+                fill white
+
+    .scroll__text
+      position relative
+      width 30%
+      margin-left 10%
+      .step
+        margin-bottom 30rem
+        h4
+          font-family 'Atlas Grotesk Web'
+          text-align left
+        p
+          text-align left
+          font-size .9rem
+          font-family 'Atlas Grotesk Web'
+          line-height 1.8
+    .is-fixed
+      position fixed
+    .is-bottom
+        bottom 0
+        top auto
+
+
+
+.axis .domain {
+    display: none;
+}
+
+.axis--x line {
+    stroke: #aaa;
+}
+
+.axis--activity .tick line {
+    display: none;
+}
+
+
+
+.axis--activity .tick:nth-child(odd) text {
+    fill: #222;
+    fill: white;
+}
+
+.line {
+    fill: none;
+    /*stroke: #fff;*/
+}
+
+.area {
+    /*fill: #448cab;*/
+    fill: coral;
+    fill: black;
+}
+
+.activity:nth-child(odd) .area {
+    fill: #5ca3c1;
+    fill: black;
+
+}
+
+.joy_body {
+    background: black;
+    font-size: 5px;
+    color: white;
+    width: 100%;
+    max-height: 1500px;
+    padding: 0rem 1rem 0 0;
+}
+
+p.joy_text {
+    color: white;
+}

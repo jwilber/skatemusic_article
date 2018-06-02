@@ -1,0 +1,121 @@
+/* CUSTOM STORY STYLE */
+
+.button
+	font-family Gill Sans
+	font-family arial
+	font-weight bold
+	background-color #e7e7e7
+	padding 10px 15px
+	text-align center
+	border 1px solid black
+	border-radius 8px
+
+
+.button:hover
+	background-color coral
+	color white
+
+
+.title
+	font-family Gill Sans
+	font-size 35px
+	font-weight bold
+	color black
+
+#vis
+	position relative
+	left 25%
+
+#toolbar
+	display flex
+
+#genre, #use, .SearchBar
+	min-width 0
+
+#genre
+	flex 0 150px
+
+#use
+	flex 0 150px
+	padding-left 10px
+
+.SearchBar
+	font-size 19px
+	font-family Gill Sans
+	font-family arial
+	padding-top 7px
+	font-weight bold
+	flex 0 100px
+	padding-left 250px
+
+#search
+	text-align left
+	padding-left 5px
+	padding-bottom 2px
+
+.tooltipimage
+	width 65px
+	height 65px
+
+.prose
+	&__hed
+		font-size 60px
+	    line-height 1.2
+	    margin-top .75rem
+	    margin-bottom 1rem
+	    max-width 90rem
+
+
+.table {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1 1 auto;
+  font-size: .9rem;
+  margin: 0 -5px;
+  line-height: .5;
+  width: 50%;
+  font-family: Gill Sans;
+  font-weight: 10%;
+}
+
+.th {
+  display: none;
+  font-weight: bold;
+  /*background-color: #f2f2f2;*/
+  border-bottom: .05px solid #d0d0d0;
+  color: #74a9cf;
+}
+
+.th > .td {
+  white-space: normal;
+  justify-content: center;
+}
+
+.tr {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: .05px solid #d0d0d0;
+}
+/*
+.tr:nth-of-type(even) {
+  background-color: #e8eff9;
+}
+
+.tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}*/
+
+.td {
+  display: flex;
+  flex-flow: row nowrap;
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 0.3em;
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0px;
+  white-space: nowrap;
+  margin: 0 5px;
+}

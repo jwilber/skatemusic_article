@@ -1,2 +1,1 @@
-# skatemusic_article
-old code for The Pudding skate music article
+File for skatemusic article on The Pudding
