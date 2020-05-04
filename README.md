@@ -1,6 +1,6 @@
 # Skate Music Pudding Article (Rough Draft)
 
-Pre-production version of my skate-video article for The Pudding (here's the final version): 
+Pre-production version of my skate-video article for The Pudding (here's the final version): https://pudding.cool/2018/06/skate-music/
 
 # Preview 
 
